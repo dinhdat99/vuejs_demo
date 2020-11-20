@@ -1,0 +1,86 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'arial';
+    font-size: 12px;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+
+.container{
+    width: 100%;
+}
+.wrapper{
+    width: 1010px;
+    height: 700px;
+    margin: 0px auto;
+    background: #f4f4f4;
+    display: flex;
+    flex-direction: row;
+    
+}
+#fas:hover{
+    transition: 0.5s;
+    transform: scale(1.1);
+   
+}
+#icon{
+    display: flex; 
+    margin:50px 50px 0px 150px; 
+    cursor: pointer;
+    color: aqua;
+    margin-bottom: -32px;
+}
+.fas :hover{
+    transition: 0.5s;
+    transform: scale(1.1);
+    color: red;
+    background: red;
+}
+#icon.fas{
+    transition: 0.5s;
+}
+span{
+    font-size: 20px;
+    color: black;
+    padding-left: 10px;
+}
+#right{
+    margin-top: 10px;
+    width: 750px;
+    min-height: 400px;
+}
+img.garden {
+    display: block; 
+    margin:50px 150px;   
+}
+.product{
+    display: flex;
+    flex-direction: row;
+}
+.box{
+    overflow: hidden;
+    margin : auto ;
+}
+#content{
+    display: flex;
+    flex-direction: column;
+    margin-inline-start: 100px;
+    margin-left: 213px;
+    margin-right: -39px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: -49px;
+    margin-left: 150px;
+    margin-right: -100px;
+    border: 1px solid #000000;
+}
+.box img:hover{
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+.box img{
+    transition: 0.5s;
+}
